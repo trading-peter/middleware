@@ -11,9 +11,9 @@ Middleware for [JSON Web Tokens](https://jwt.io/).
 ## Install
 
 ```sh
-$ go get -u github.com/iris-contrib/middleware/jwt
+$ go get -u github.com/iris-contrib/middleware.v5/jwt
 ```
 
 ## How to use
 
-Read the jwt middleware section [here](https://kataras.gitbooks.io/iris/content/jwt.html)
+Read the jwt middleware section [here](https://kataras.gitbooks.io/iris-v5/content/jwt.html)

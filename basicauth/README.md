@@ -5,9 +5,9 @@ HTTP Basic authentication (BA) implementation is the simplest technique for enfo
 ## Install
 
 ```sh
-$ go get -u github.com/iris-contrib/middleware/basicauth
+$ go get -u github.com/iris-contrib/middleware.v5/basicauth
 ```
 
 ## How to use
 
-Read the basic authentication section [here](https://kataras.gitbooks.io/iris/content/basic-authentication.html)
+Read the basic authentication section [here](https://kataras.gitbooks.io/iris-v5/content/basic-authentication.html)

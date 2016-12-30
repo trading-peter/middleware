@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/dgrijalva/jwt-go"
-	"github.com/kataras/iris"
+	"gopkg.in/kataras/iris.v5"
 )
 
 // A function called whenever an error is encountered

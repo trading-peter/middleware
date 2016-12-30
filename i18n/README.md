@@ -8,7 +8,7 @@ More can be found here:
 ## Install
 
 ```sh
-$ go get -u github.com/iris-contrib/middleware/i18n
+$ go get -u github.com/iris-contrib/middleware.v5/i18n
 ```
 
 ## Description
@@ -39,7 +39,7 @@ hi = ����, %s
 package main
 
 import (
-	"github.com/kataras/iris"
+	"gopkg.in/kataras/iris.v5"
 	"github.com/iris-contrib/middleware/i18n"
 )
 

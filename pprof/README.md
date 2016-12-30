@@ -6,7 +6,7 @@ This folder contains a middleware which enables net/http/pprof.
 ## Install
 
 ```sh
-$ go get -u github.com/iris-contrib/middleware/pprof
+$ go get -u github.com/iris-contrib/middleware.v5/pprof
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ package main
 
 import (
 	"github.com/iris-contrib/middleware/pprof"
-	"github.com/kataras/iris"
+	"gopkg.in/kataras/iris.v5"
 )
 
 func main() {

@@ -6,11 +6,11 @@ This folder contains a middleware which is a bridge between Iris station's logge
 ## Install
 
 ```sh
-$ go get -u github.com/iris-contrib/middleware/logger
+$ go get -u github.com/iris-contrib/middleware.v5/logger
 ```
 
 **Logs the incoming requests**
 
 ## How to use
 
-Read the logger section [here](https://kataras.gitbooks.io/iris/content/logger.html)
+Read the logger section [here](https://kataras.gitbooks.io/iris-v5/content/logger.html)

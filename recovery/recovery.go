@@ -1,7 +1,7 @@
 package recovery
 
 import (
-	"github.com/kataras/iris"
+	"gopkg.in/kataras/iris.v5"
 )
 
 var Handler = iris.HandlerFunc(func(ctx *iris.Context) {

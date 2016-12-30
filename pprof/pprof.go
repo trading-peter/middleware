@@ -4,7 +4,7 @@ import (
 	"net/http/pprof"
 	"strings"
 
-	"github.com/kataras/iris"
+	"gopkg.in/kataras/iris.v5"
 )
 
 // New returns the pprof (profile, debug usage) Handler/ middleware
