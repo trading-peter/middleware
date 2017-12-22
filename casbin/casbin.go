@@ -40,7 +40,7 @@ func (c *Casbin) Wrapper() func(w http.ResponseWriter, r *http.Request, router h
 // [...]
 func (c *Casbin) ServeHTTP(ctx context.Context) {
 	if !c.Check(ctx.Request()) {
-		ctx.StatusCode(http.StatusForbidden) // Status Forbiden
+		ctx.StatusCode(http.StatusForbidden) // Status Forbidden
 		ctx.StopExecution()
 		return
 	}

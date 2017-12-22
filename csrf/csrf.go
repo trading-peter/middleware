@@ -79,7 +79,7 @@ type options struct {
 }
 
 // New returns a new csrf middleware. It contains both `Get/Head/Options/Trace` and 'Unsafe' methods (i.e `Post`)
-// handlers for proccessing.
+// handlers for processing.
 func New(authKey []byte, opts ...Option) *Csrf {
 	cs := parseOptions(opts...)
 
@@ -137,7 +137,7 @@ func New(authKey []byte, opts ...Option) *Csrf {
 // Requests that do not provide a matching token are served with a HTTP 403
 // 'Forbidden' error response.
 //
-// Example: https://github.com/iris-contrib/middleware/tree/master/csrf/_example
+// Example: https://github.com/iris-contrib/middleware/tree/v8/csrf/_example
 func Protect(authKey []byte, opts ...Option) context.Handler {
 	cs := New(authKey, opts...)
 	return cs.Serve
