@@ -25,7 +25,7 @@ var j = jwt.New(jwt.Config{
 	// If the signing method is not constant the `jwt.Config.ValidationKeyGetter` callback
 	// can be used to implement additional checks
 	// Important to avoid security issues described here:
-	// https://auth0.com/blog/2015/03/31/critical-vulnerabilities-in-json-web-token-libraries/
+	// https://auth0.com/blog/critical-vulnerabilities-in-json-web-token-libraries/
 	SigningMethod: jwt.SigningMethodHS256,
 })
 
